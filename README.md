@@ -9,6 +9,17 @@ Installation:
 npm install @ng-plus/safe-pipes --save
 ```
 
+On your module:
+```
+import { SafePipesModule } from '@ng-plus/safe-pipes';
+
+imports: [
+  SafePipesModule
+]
+
+```
+
+
 Usage:
 ```html
 <img [src]="url | safeUrl" />
